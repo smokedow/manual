@@ -8,7 +8,7 @@ sidebar_position: 5
 
 - Improve trojan/vmess uri compatibility
 - Fix UI overlay issue
-- Upload bypass vpn setting description for better understanding
+- Update bypass vpn setting description for better understanding
 - Fix Android TV speed test icon not focusable
 - Bug fixed
 
