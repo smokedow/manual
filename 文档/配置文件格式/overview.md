@@ -126,10 +126,10 @@ PROCESS-NAME,com.android.vending,Proxy  # android package name
 PROCESS-NAME,*google*,Proxy             # android package name wildcard rule
 
 # traffic match external rules defined in 'https://ruleset.com/cn' will be sent to 'ProxyVMess'
-RULE-SET,https://ruleset.com/cn,ProxyVMess
+RULE-SET,[https://ruleset.com/cn](https://github.com/privacy-protection-tools/anti-AD),ProxyVMess
 
 # traffic match external domain rules defined in 'https://domainset.com/ad' will be rejected'
-DOMAIN-SET,https://domainset.com/ad,REJECT
+DOMAIN-SET,[https://domainset.com/ad](https://github.com/privacy-protection-tools/anti-AD),REJECT
 
 # traffic doesn't match rules above will be sent to 'ProxyTrojan'
 FINAL,ProxyTrojan
